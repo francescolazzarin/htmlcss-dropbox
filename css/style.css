@@ -14,6 +14,7 @@ header{
     background-color: blue;
     color: white;
     border: none;
+    padding: 5px;
 }
 .flex{
     display: flex;
@@ -118,16 +119,13 @@ h3{
     margin-bottom: 35px;
 }
 .seconda_sezione .flex{
-    width: 52%;
+    width: 50%;
     margin: 0 auto;
-    max-height: calc( 100vw * 1/2 )  ;
 }
-.flex.col.user.border{
+.flex.col.border{
     flex-direction: column;
     width: 30%;
-    justify-content: space-between;
-    height:100%;
-    flex-wrap: wrap ;
+    margin-left: 0;
     
 }
 .border_bott{
@@ -143,10 +141,30 @@ h3{
     width: 85%;
     margin-top: 30px;
     margin-left: 10px;
-    font-size: 12px;
     text-align: left;
-
+}
+main i{
+    vertical-align: top;
+}
+.dp_ib{
+    display: inline-block;
+    max-width: 85%;
+    font-size: 12px;
+    font-weight: 400;
 }
 
-
-
+.mrg_b2{
+    margin-bottom: 20px;
+}
+.mrg_b4{
+    margin-bottom: 40px;
+}
+.mrg_b160{
+    margin-bottom: 160px;
+}
+h4{
+    margin-bottom: 30px;
+}
+.mrg_b130{
+    margin-bottom: 130px;
+}
