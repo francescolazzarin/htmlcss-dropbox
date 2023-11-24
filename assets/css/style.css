@@ -107,4 +107,11 @@ div.w-70.centrato.radio h2{
 section.prima,section.seconda,section.terza,.info-dati{
     margin-bottom: 40px;
 }
+section.quarta{
+    height: 60vh;
+}
+.square{
+    height: 30vh;
+    width: calc( (100vh * (100vw / 100vh)) / 5) ;
+}
     /* ***** */
